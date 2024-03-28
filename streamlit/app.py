@@ -6,7 +6,7 @@ import keras
 import tensorflow as tf
 
 print(tf.__version__)
-model = keras.models.load_model("model/time_series.keras")
+model = keras.models.load_model("./model/time_series.keras")
 seq_len = 20
 
 def predict(data, horizon):
